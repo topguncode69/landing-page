@@ -1,0 +1,113 @@
+
+body {
+    display: flex;
+    background-color: rgba(57, 74, 94, 0.863);
+    flex-direction: column;
+    margin: 0;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+
+.header {
+    background-color: rgba(63, 69, 83, 0.795);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 23px;
+  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {text-decoration: none;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: white;}
+
+h1, h2, h3, p {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;}
+
+main {display: flex;
+flex-direction: column;
+margin: 30px;
+align-items: center;
+font-size: 30px;
+flex-grow: 1;
+height: 500px;
+justify-content: center;
+color: white;
+}
+
+.hero  {display: flex;
+margin: 20px;
+font-weight: 900;}
+
+.projects {display: flex;
+flex-direction: column;
+margin: 0;
+margin-top: 0;
+align-items: center;
+font-size: 30px;
+flex-grow: 1;
+flex-shrink: 0;
+height: 500px;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.795);
+color: rgba(13, 14, 17, 0.87)}
+
+.gallery {display: flex;
+flex-direction: column;
+margin: 0px;
+margin-top: 0px;
+align-items: center;
+font-size: 30px;
+flex-shrink: 0;
+height: 400px;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.795);
+color: rgba(13, 14, 17, 0.87)}
+
+
+footer {display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.795);
+color: rgba(13, 14, 17, 0.87)}
+
+.content {display: flex;
+flex-direction: column;
+flex-grow: 1;}
+
+.card {display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 950px;
+font-weight: 300;
+align-items: center;}
+
+h2, .strong {font-weight: 700;}
+
+.otherclass {
+    font-weight: 600;
+    margin-bottom: 0;
+    
+}
+.galleryh2 {font-weight: 400;}
