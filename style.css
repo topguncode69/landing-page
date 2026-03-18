@@ -114,7 +114,7 @@ h2, .strong {font-weight: 700;}
     margin-bottom: 0;
     
 }
-.galleryh2 {font-weight: 400;}
+.galleryh2 {font-weight: 800;}
 
 .slidecontainer {
     display: flex;
@@ -133,7 +133,7 @@ height: 100%;
 object-fit: cover;
 border-radius: 10px;
 transition: all 0.5s;
-opacity: 0.8;
+opacity: 0.5;
 }
 img:hover {width: 110%;
     height: 110%;
@@ -164,5 +164,8 @@ flex-grow: 1;}
 .footer {-webkit-animation: fadein 2s;}
 
 #reappear {-webkit-animation: fadein 5s;
-font-size: 45px;
+font-size: 60px;
 }
+
+img {max-width: fit-content;}
+
